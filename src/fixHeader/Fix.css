@@ -1,0 +1,33 @@
+.fixHeader{
+    width: 100%;
+    height: 50px;
+    background-color: #21409a;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    direction: rtl;
+    color: white;
+    position: sticky;
+    top: -1px;
+}
+
+.fixHeader ul li{
+    display: inline-block;
+    list-style: none;
+    padding: 10px 20px;
+    margin: 0 20px;
+    font-weight: 600;
+}
+.fixHeader ul li:hover{
+    background-color: #274ec2;
+    border-radius: 10px;
+}
+@media only screen and (max-width:768px){
+    .fixHeader ul li {
+        margin: 0 2px;
+        padding: 5px;
+    }
+    .fixHeader ul .backLi{
+        display: none;
+    }
+}
