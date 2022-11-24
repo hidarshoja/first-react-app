@@ -27,14 +27,14 @@ function App() {
        <Header></Header>
        <Fix></Fix>
        <div className='ContentApp'>
-           <Content {...allBook[0]}><p>off 15%</p></Content>
-           <Content {...allBook[1]}></Content>
-           <Content {...allBook[2]}></Content>
-           <Content {...allBook[3]}></Content>
+           <Content {...allBook[0]}><p className='off'>off 15%</p></Content>
+           <Content {...allBook[1]}><p className='off'>off 30%</p></Content>
+           <Content {...allBook[2]}><p className='off'>off 10%</p></Content>
+           <Content {...allBook[3]}><p className='off'>off 35%</p></Content>
            <Content {...allBook[4]}></Content>
            <Content {...allBook[5]}></Content>
            <Content {...allBook[6]}></Content>
-           <Content {...allBook[7]}></Content>
+           <Content {...allBook[7]}><p className='off'>off 25%</p></Content>
            <Content {...allBook[8]}></Content>
            <Content {...allBook[9]}></Content>
            <Content {...allBook[1]}></Content>
